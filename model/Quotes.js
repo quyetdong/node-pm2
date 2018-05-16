@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 
 const Quote = mongoose.Schema({
-    "amount": {
+    "cost": {
         type: Number,
         require: true
     }
