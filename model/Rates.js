@@ -1,7 +1,7 @@
 //** Connect to mongolab */
 import mongoose from "mongoose";
 
-const Rate = mongoose.Schema({
+const Rate = new mongoose.Schema({
     grossWeight: {
         amount: {
             type: Number,
@@ -31,7 +31,7 @@ const Rate = mongoose.Schema({
         }        
     },
     destination: {
-        countr_code: {
+        country_code: {
             type: String,
             require: true
         }

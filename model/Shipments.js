@@ -1,7 +1,7 @@
 //** Connect to mongolab */
 import mongoose from "mongoose";
 
-const Shipment = mongoose.Schema({
+const Shipment = new mongoose.Schema({
     ref: {
         type: String,
         require: true
@@ -130,14 +130,12 @@ Shipment.methods.refNumber = function() {
     for(let i = 0; i < 10; i += 1) {
         ref += Math.floor(10 * Math.random());
     }
-
     // const ref = (10 ** 9) + Math.floor(Math.random() * (9 * (10 ** 9)));    
     this.ref = ref;
 }
 
 // Shipment.methods.createdTime = function() {
 //     const date = new Date();
-
 //     return date.toISOString();
 // }
 

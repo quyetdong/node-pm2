@@ -1,7 +1,7 @@
 //** Connect to mongolab */
 import mongoose from "mongoose";
 
-const Quote = mongoose.Schema({
+const Quote = new mongoose.Schema({
     "cost": {
         type: Number,
         require: true

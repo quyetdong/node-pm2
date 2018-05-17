@@ -1,0 +1,3 @@
+{
+    "DBHost": "mongodb://userdb1:studydb18@ds119160.mlab.com:19160/quyetdongdb"
+}
