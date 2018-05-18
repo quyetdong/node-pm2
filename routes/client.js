@@ -28,24 +28,58 @@ Router.post('/', async (req, res) => {
 
 //* * Response to Post Request to /client/getQuote */
 Router.post('/getquote', async (req, res) => {
-  const { data } = req.body;
+  try {
+    const { data } = req.body;
 
-  const getquote = await implementClient.getQuote(data, Rates, Quotes);
+    const getquote = await implementClient.getQuote(data, Rates, Quotes);
 
-  return res.json(getquote);
+    return res.json(getquote);
+  } catch (e) {
+    return res.json({ 'Got error': e.message });
+  }
 });
 
 //* * Execute to Post Request to /client/creatshipment */
 Router.post('/creatshipment', async (req, res) => {
-  const { data } = req.body;
+  try {
+    const { data } = req.body;
 
-  const getShipment = await implementClient.creatShipment(
-    data,
-    Quotes,
-    Shipments,
-  );
+    const shipmentCreated = await implementClient.creatShipment(
+      data,
+      Quotes,
+      Shipments,
+    );
 
-  return res.json(getShipment);
+    return res.json(shipmentCreated);
+  } catch (e) {
+    return res.json({ 'Got error': e.message });
+  }
+});
+
+/** Get shipment */
+Router.post('/getshipment', async (req, res) => {
+  try {
+    const { ref } = req.body.data;
+
+    const shipmentFound = await implementClient.getShipment(ref, Shipments);
+
+    return res.json(shipmentFound);
+  } catch (e) {
+    return res.json({ 'Got error': e.message });
+  }
+});
+
+/** Delete Shipment */
+Router.delete('/deleteshipment', async (req, res) => {
+  try {
+    const { ref } = req.body.data;
+
+    const removedMessage = await implementClient.deleteShipment(ref, Shipments);
+
+    return res.json(removedMessage);
+  } catch (e) {
+    return res.json({ 'Got error': e.message });
+  }
 });
 
 export default Router;
