@@ -4,36 +4,44 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --require babel-core/register --require babel-polyfill --timeout 10000 ./test",
+    "eslint": "./node_modules/.bin/eslint --fix",
+    "precommit": "lint-staged",
+    "test":
+      "mocha --require babel-core/register --require babel-polyfill --timeout 10000 ./test",
     "start": "nodemon --exec babel-node --presets=env server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.23.0",
+    "babel": "6.23.0",
     "babel-cli": "6.26.0",
-    "babel-core": "^6.26.3",
+    "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
-    "chai": "^4.1.2",
-    "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.11.0",
-    "nock": "^9.2.6"
+    "chai": "4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.1.0",
+    "nock": "9.2.6",
+    "pretty-quick": "1.4.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
+    "axios": "0.18.0",
+    "babel-polyfill": "6.26.0",
     "body-parser": "1.18.3",
-    "chai-http": "^4.0.0",
-    "config": "^1.30.0",
+    "chai-http": "4.0.0",
+    "config": "1.30.0",
     "express": "4.16.3",
     "mongoose": "5.1.1",
-    "npm": "^6.0.1",
+    "npm": "6.0.1",
     "prettier": "1.12.1"
   },
   "babel": {
-    "presets": [
-      "env"
-    ]
+    "presets": ["env"]
+  },
+  "lint-staged": {
+    "*.js": ["pretty-quick --staged", "npm run eslint", "git add"]
   }
 }
