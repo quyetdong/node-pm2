@@ -1,10 +1,9 @@
 {
-  "name": "FinalProject",
+  "name": "finalproject",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "eslint": "./node_modules/.bin/eslint --fix",
+    "eslint": "eslint --fix",
     "precommit": "lint-staged",
     "test":
       "mocha --require babel-core/register --require babel-polyfill --timeout 10000 ./test",
@@ -36,12 +35,21 @@
     "express": "4.16.3",
     "mongoose": "5.1.1",
     "npm": "6.0.1",
-    "prettier": "1.12.1"
+    "prettier": "1.12.1",
+    "sinon": "^5.0.7"
   },
   "babel": {
     "presets": ["env"]
   },
   "lint-staged": {
     "*.js": ["pretty-quick --staged", "npm run eslint", "git add"]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ojt/batch-3/quyetdv4.git"
+  },
+  "description": ""
 }

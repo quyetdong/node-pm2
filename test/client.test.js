@@ -1,86 +1,35 @@
-// During the test the env variable is set to test
-process.env.NODE_ENV = "test";
-
-const mongoose = require("mongoose");
-const Rates = require("../model/Rates");
-
 // Require the dev-dependencies
-const chai = require("chai");
-const chaiHttp = require("chai-http");
-const server = require("../server");
+import { should as _should, use, request, expect } from "chai";
+import chaiHttp from "chai-http";
+import server from "../server";
+import implement from "../controller/implementClient";
+import Quotes from "../model/Quotes";
+import Rates from "../model/Rates";
+import { data } from "./data/data";
+import sinon from "sinon";
 
-const should = chai.should();
-
-chai.use(chaiHttp);
-
-// Our parent block
-// describe('Rates', () => {
-// beforeEach((done) => {  // Before each test we empty the database
-
-//     Rates.remove({}, (err) => {
-//         done();
-//     });
-// });
+let should = _should();
+use(chaiHttp);
 
 /**
  * Test the /Get route
  */
 describe("/POST getquote", () => {
-  it("it should POST", done => {
-    const rate = {
-      data: {
-        origin: {
-          contact: {
-            name: "La Redoute Contact",
-            email: "laredoute@example.com",
-            phone: "07 1234 5678"
-          },
-          address: {
-            country_code: "FR",
-            locality: "Anzin",
-            postal_code: "59410",
-            address_line1: "Rue Jean Jaures"
-          }
-        },
-        destination: {
-          contact: {
-            name: "Marquise de Pompadour",
-            email: "marquise-de-pompadour@example.com",
-            phone: "07 9876 5432"
-          },
-          address: {
-            country_code: "FR",
-            locality: "Marseille",
-            postal_code: "13006",
-            address_line1: "175 Rue de Rome"
-          }
-        },
-        package: {
-          dimensions: {
-            height: 10,
-            width: 10,
-            length: 10,
-            unit: "cm"
-          },
-          grossWeight: {
-            amount: 100,
-            unit: "kg"
-          }
-        }
-      }
-    };
+  it("it should POST", async () => {
+    const getquote = implement.getQuote;
 
-    chai
-      .request(server)
-      .post("/client/getquote")
-      .send(rate)
-      .end((err, res) => {
-        res.should.have.status(200);
-        res.body.should.be.a("object");
-        res.body.should.have.property("data");
-        res.body.data.should.have.property("id");
-        res.body.data.should.have.property("cost").eql(100);
-        done();
-      });
+    sinon.addBehavior("sort", fake => fake.returns({ price: { price: 100 } }));
+
+    sinon.addBehavior("save", fake => fake.returns({ _id: "abc", cost: 100 }));
+    let quote = sinon.createStubInstance(Quotes);
+    quote.save();
+
+    const res = await getquote(data[0].getquoteRequset.data, Rates, Quotes);
+
+    expect(res).to.have.own.property("data");
+    expect(res.data).to.be.an("array");
+    expect(res.data).to.have.lengthOf(1);
+    expect(res.data[0]).to.have.all.keys("id", "cost");
+    expect(res.data[0].cost).to.equal(100);
   });
 });
