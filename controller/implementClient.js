@@ -56,6 +56,8 @@ const implementClient = {
       const quote = new Quotes();
       quote.cost = rate.price.price;
 
+      console.log(quote);
+
       const result = await quote.save();
 
       return { data: [{ id: result._id, cost: result.cost }] };

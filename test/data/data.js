@@ -45,7 +45,7 @@ const getquoteRespone = {
   data: [
     {
       id: "__QUOTE_ID__",
-      amount: 100 // USD
+      amount: 100
     }
   ]
 };

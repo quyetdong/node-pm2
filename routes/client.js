@@ -57,9 +57,9 @@ Router.post('/creatshipment', async (req, res) => {
 });
 
 /** Get shipment */
-Router.post('/getshipment', async (req, res) => {
+Router.get('/getshipment', async (req, res) => {
   try {
-    const { ref } = req.body.data;
+    const { ref } = req.query;
 
     const shipmentFound = await implementClient.getShipment(ref, Shipments);
 

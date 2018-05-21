@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import config from 'config';
 import routes from './routes';
+import logger from './config/winston1';
 
 const app = express();
 
@@ -24,5 +25,7 @@ app.use('/', routes);
 
 //* Listen for request at PORT */
 app.listen(PORT, () => {
-  console.log('running');
+  logger('running');
 });
+
+export default app;
