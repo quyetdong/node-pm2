@@ -1,44 +1,46 @@
-// import { createLogger, format, transports } from 'winston';
+// Set basic parts
+const { createLogger, format, transports } = require('winston');
+const fs = require('fs');
 
-// const {
-//   combine, timestamp, label, printf,
-// } = format;
+const env = process.env.NODE_ENV || 'development';
 
-// const myFormat = printf(info => `${info.timestamp} ${info.level}: ${info.message}`);
+// Create the log directory if it does not exist
+const logDir = 'logs';
+if (!fs.existsSync(logDir)) {
+  fs.mkdirSync(logDir);
+}
 
-// // define the custom settings for each transport (file, console)
-// const options = {
-//   file: {
-//     level: 'info',
-//     filename: './logs/app.log',
-//     handleExceptions: true,
-//     json: true,
-//     maxsize: 5242880, // 5MB
-//     maxFiles: 5,
-//     colorize: true,
-//   },
-//   console: {
-//     level: 'debug',
-//     handleExceptions: true,
-//     json: false,
-//     colorize: true,
-//   },
-// };
+const { combine, timestamp, printf } = format;
 
-// // instantiate a new Winston Logger with the settings defined above
-// const logger = createLogger({
-//   format: combine(timestamp(), myFormat),
-//   transports: [new transports.File(options.file)],
-//   exitOnError: false, // do not exit on handled exceptions
-// });
+const myFormat = printf(info => `${info.timestamp} ${info.level}: ${info.message}`);
 
-// // // create a stream object with a 'write' function that will be used by `morgan`
-// // logger.stream = {
-// //   write(message, encoding) {
-// //     // use the 'info' log level so the output will be picked up
-// //     // by both transports (file and console)
-// //     logger.info(message);
-// //   },
-// // };
+// define the custom settings for each transport (file, console)
+const options = {
+  file: {
+    level: env === 'development' ? 'debug' : 'info',
+    filename: `${logDir}/app.log`,
+    handleExceptions: true,
+    json: true,
+    maxsize: 5242880, // 5MB
+    maxFiles: 5,
+    colorize: true,
+  },
+  console: {
+    level: 'info',
+    handleExceptions: true,
+    json: false,
+    colorize: true,
+  },
+};
 
-// export default logger;
+// instantiate a new Winston Logger with the settings defined above
+const logger = createLogger({
+  format: combine(timestamp(), myFormat),
+  transports: [
+    new transports.File(options.file),
+    new transports.Console(options.console),
+  ],
+  exitOnError: false, // do not exit on handled exceptions
+});
+
+export default logger;

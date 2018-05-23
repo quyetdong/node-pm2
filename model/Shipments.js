@@ -140,4 +140,4 @@ Shipment.methods.refNumber = function () {
 //     const date = new Date();
 //     return date.toISOString();
 // }
-export default mongoose.model('Shipment', Shipment);
+export default mongoose.model('Shipments', Shipment);

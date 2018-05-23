@@ -25,7 +25,7 @@ app.use('/', routes);
 
 //* Listen for request at PORT */
 app.listen(PORT, () => {
-  logger('running');
+  logger.info('server running');
 });
 
 export default app;

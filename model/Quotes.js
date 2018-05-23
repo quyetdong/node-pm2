@@ -1,12 +1,11 @@
-//** Connect to mongolab */
-import mongoose from "mongoose";
+//* * Connect to mongolab */
+import mongoose from 'mongoose';
 
 const Quote = new mongoose.Schema({
-    "cost": {
-        type: Number,
-        require: true
-    }
-})
+  cost: {
+    type: Number,
+    require: true,
+  },
+});
 
-let Quotes = mongoose.model('Quote', Quote)
-export default Quotes;
+export default mongoose.model('Quotes', Quote);

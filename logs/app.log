@@ -1,0 +1,1821 @@
+2018-05-22T03:20:11.754Z info: server running
+2018-05-22T03:20:43.033Z info: server running
+2018-05-22T03:23:11.971Z info: server running
+2018-05-22T03:23:39.087Z info: server running
+2018-05-22T03:23:42.292Z info: server running
+2018-05-22T03:23:58.620Z info: server running
+2018-05-22T06:57:31.259Z info: server running
+2018-05-22T06:57:35.661Z info: server running
+2018-05-22T06:57:44.142Z info: server running
+2018-05-22T06:58:00.992Z info: server running
+2018-05-22T06:58:12.987Z info: server running
+2018-05-22T06:58:46.832Z info: server running
+2018-05-22T06:58:56.262Z info: server running
+2018-05-22T06:59:01.509Z info: server running
+2018-05-22T06:59:06.297Z info: server running
+2018-05-22T06:59:24.153Z info: server running
+2018-05-22T06:59:26.796Z info: server running
+2018-05-22T06:59:34.333Z info: server running
+2018-05-22T06:59:37.174Z info: server running
+2018-05-22T07:07:35.450Z info: server running
+2018-05-22T07:10:15.519Z info: Get quote succeeded
+2018-05-22T07:11:01.574Z info: server running
+2018-05-22T07:13:40.039Z info: server running
+2018-05-22T07:14:31.746Z info: Get quote succeeded!
+2018-05-22T07:15:18.388Z info: server running
+2018-05-22T07:15:21.531Z info: server running
+2018-05-22T07:15:42.212Z info: server running
+2018-05-22T07:15:57.940Z info: server running
+2018-05-22T07:16:12.513Z info: server running
+2018-05-22T07:16:23.918Z info: server running
+2018-05-22T07:25:06.079Z info: server running
+2018-05-22T07:26:55.327Z info: Get quote executed!
+2018-05-22T07:27:35.059Z info: server running
+2018-05-22T07:27:39.596Z error: Cannot read property 'price' of null
+2018-05-22T07:27:39.599Z info: Get quote executed!
+2018-05-22T07:28:25.258Z info: server running
+2018-05-22T07:28:32.373Z info: server running
+2018-05-22T07:28:47.667Z info: server running
+2018-05-22T07:29:26.447Z info: server running
+2018-05-22T07:29:38.789Z info: server running
+2018-05-22T07:29:45.183Z info: server running
+2018-05-22T07:29:54.811Z info: server running
+2018-05-22T07:30:11.802Z info: server running
+2018-05-22T07:30:16.275Z info: server running
+2018-05-22T07:30:20.958Z info: server running
+2018-05-22T07:30:29.808Z info: server running
+2018-05-22T07:30:41.744Z info: server running
+2018-05-22T07:31:25.527Z info: server running
+2018-05-22T07:31:29.598Z info: rate not found in function model(doc, fields, skipId) {
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    } database
+2018-05-22T07:31:29.600Z info: Get quote executed!
+2018-05-22T07:32:37.825Z info: server running
+2018-05-22T07:32:40.697Z info: server running
+2018-05-22T07:33:01.889Z info: server running
+2018-05-22T07:33:04.878Z info: server running
+2018-05-22T07:36:19.779Z error: Cannot read property 'address' of undefined
+2018-05-22T07:44:30.502Z info: server running
+2018-05-22T09:17:41.096Z error: uncaughtException: schema is not defined
+ReferenceError: schema is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:1:16)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-22T09:18:46.485Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (1:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (1:7)
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mexport[39m schema [33m=[39m {
+ [90m   | [39m       [31m[1m^[22m[39m
+ [90m 2 | [39m    title[33m:[39m [32m"Validate request data in creatShipment"[39m[33m,[39m
+ [90m 3 | [39m    type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 4 | [39m    properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$1.parseExportSpecifiers (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2830:8)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2658:28)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+2018-05-22T09:18:58.885Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (1:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (1:7)
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mexport[39m schema [33m=[39m {
+ [90m   | [39m       [31m[1m^[22m[39m
+ [90m 2 | [39m    title[33m:[39m [32m"Validate request data in creatShipment"[39m[33m,[39m
+ [90m 3 | [39m    type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 4 | [39m    properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$1.parseExportSpecifiers (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2830:8)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2658:28)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+2018-05-22T09:20:24.457Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (1:8)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (1:8)
+[0m[31m[1m>[22m[39m[90m 1 | [39mexports schema [33m=[39m {
+ [90m   | [39m        [31m[1m^[22m[39m
+ [90m 2 | [39m    title[33m:[39m [32m"Validate request data in creatShipment"[39m[33m,[39m
+ [90m 3 | [39m    type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 4 | [39m    properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-22T09:20:47.710Z info: server running
+2018-05-22T09:21:24.501Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (48:25)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (48:25)
+[0m [90m 46 | [39m              }[33m,[39m
+ [90m 47 | [39m              organisation[33m:[39m {
+[31m[1m>[22m[39m[90m 48 | [39m                [32m"boolean"[39m[33m,[39m
+ [90m    | [39m                         [31m[1m^[22m[39m
+ [90m 49 | [39m            }[33m,[39m
+ [90m 50 | [39m            required[33m:[39m [[32m"country_code"[39m[33m,[39m [32m"locality"[39m[33m,[39m [32m"postal_code"[39m[33m,[39m [32m"address_line1"[39m[33m,[39m [32m"organisation"[39m]
+ [90m 51 | [39m          }[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4142:19)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseObjectProperty (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4115:99)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+2018-05-22T09:21:27.958Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (49:14)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (49:14)
+[0m [90m 47 | [39m              organisation[33m:[39m {
+ [90m 48 | [39m                [32m"boolean"[39m
+[31m[1m>[22m[39m[90m 49 | [39m              }[33m,[39m
+ [90m    | [39m              [31m[1m^[22m[39m
+ [90m 50 | [39m            }[33m,[39m
+ [90m 51 | [39m            required[33m:[39m [[32m"country_code"[39m[33m,[39m [32m"locality"[39m[33m,[39m [32m"postal_code"[39m[33m,[39m [32m"address_line1"[39m[33m,[39m [32m"organisation"[39m]
+ [90m 52 | [39m          }[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4142:19)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseObjectProperty (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4115:99)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+2018-05-22T09:21:31.294Z info: server running
+2018-05-22T09:22:03.739Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (89:32)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (89:32)
+[0m [90m 87 | [39m                type[33m:[39m [32m"string"[39m
+ [90m 88 | [39m              }[33m,[39m
+[31m[1m>[22m[39m[90m 89 | [39m              organisation[33m:[39m type[33m:[39m [32m"boolean"[39m
+ [90m    | [39m                                [31m[1m^[22m[39m
+ [90m 90 | [39m            }[33m,[39m
+ [90m 91 | [39m            required[33m:[39m [[32m"country_code"[39m[33m,[39m [32m"locality"[39m[33m,[39m [32m"postal_code"[39m[33m,[39m [32m"address_line1"[39m[33m,[39m [32m"organisation"[39m]
+ [90m 92 | [39m          }[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseObjectProperty (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4115:99)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+2018-05-22T09:22:08.667Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (127:3)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (127:3)
+[0m [90m 125 | [39m    }[33m,[39m
+ [90m 126 | [39m    required[33m:[39m [[32m"quote"[39m[33m,[39m [32m"origin"[39m[33m,[39m [32m"destination"[39m[33m,[39m [32m"package"[39m]
+[31m[1m>[22m[39m[90m 127 | [39m  }[33m;[39m
+ [90m     | [39m   [31m[1m^[22m[39m[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$1.parseVar (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2169:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1861:19)
+    at Parser.pp$1.parseExportDeclaration (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2666:15)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2654:29)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+2018-05-22T09:22:11.908Z info: server running
+2018-05-22T09:22:14.911Z info: server running
+2018-05-22T09:22:30.448Z info: Request data not right!
+2018-05-22T09:28:47.618Z info: server running
+2018-05-22T09:28:59.660Z info: server running
+2018-05-22T09:29:05.153Z info: server running
+2018-05-22T09:29:26.196Z info: server running
+2018-05-22T09:29:30.433Z info: server running
+2018-05-22T09:31:49.069Z info: server running
+2018-05-22T10:50:42.254Z info: server running
+2018-05-23T02:54:36.473Z error: uncaughtException: boolean is not defined
+ReferenceError: boolean is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:134:33)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T02:57:10.496Z error: uncaughtException: boolean is not defined
+ReferenceError: boolean is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:147:33)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T02:57:28.678Z info: server running
+2018-05-23T02:57:31.432Z error: valid is not defined
+2018-05-23T02:58:40.479Z error: valid is not defined
+2018-05-23T02:58:42.545Z error: valid is not defined
+2018-05-23T02:59:13.493Z info: server running
+2018-05-23T02:59:13.879Z info: Origin country, destination country, weight fields are required!
+2018-05-23T02:59:13.879Z info: Get quote executed!
+2018-05-23T03:00:00.612Z info: server running
+2018-05-23T03:00:15.614Z info: server running
+2018-05-23T03:00:24.663Z info: server running
+2018-05-23T03:00:27.598Z info: server running
+2018-05-23T03:00:33.246Z info: server running
+2018-05-23T03:00:58.687Z info: server running
+2018-05-23T03:01:03.751Z info: server running
+2018-05-23T03:01:08.205Z info: server running
+2018-05-23T03:01:12.814Z info: server running
+2018-05-23T03:01:17.256Z info: getQuote Validation failed!
+2018-05-23T03:01:17.257Z info: Get quote executed!
+2018-05-23T03:01:36.726Z info: getQuote Validation failed!
+2018-05-23T03:01:36.727Z info: Get quote executed!
+2018-05-23T03:01:47.433Z info: getQuote Validation failed!
+2018-05-23T03:01:47.433Z info: Get quote executed!
+2018-05-23T03:02:19.657Z info: getQuote Validation failed!
+2018-05-23T03:02:19.657Z info: Get quote executed!
+2018-05-23T03:02:36.670Z info: getQuote Validation failed!
+2018-05-23T03:02:36.673Z info: Get quote executed!
+2018-05-23T03:04:49.814Z info: getQuote Validation failed!
+2018-05-23T03:04:49.815Z info: Get quote executed!
+2018-05-23T03:05:13.376Z info: server running
+2018-05-23T03:05:14.775Z info: getQuote Validation failed!
+2018-05-23T03:05:14.776Z info: Get quote executed!
+2018-05-23T03:05:16.632Z info: getQuote Validation failed!
+2018-05-23T03:05:16.634Z info: Get quote executed!
+2018-05-23T03:05:36.212Z info: server running
+2018-05-23T03:06:10.315Z info: server running
+2018-05-23T03:06:13.338Z info: server running
+2018-05-23T03:06:59.014Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (153:1)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected , (153:1)
+[0m [90m 151 | [39m    required[33m:[39m [[32m"address"[39m][33m,[39m
+ [90m 152 | [39m  }[33m,[39m
+[31m[1m>[22m[39m[90m 153 | [39m}[33m;[39m
+ [90m     | [39m [31m[1m^[22m[39m
+ [90m 154 | [39m[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$1.parseVar (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2169:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1861:19)
+    at Parser.pp$1.parseExportDeclaration (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2666:15)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2654:29)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+2018-05-23T03:07:03.099Z info: server running
+2018-05-23T03:07:06.503Z info: server running
+2018-05-23T03:07:36.484Z info: server running
+2018-05-23T03:07:40.958Z info: server running
+2018-05-23T03:07:46.189Z info: server running
+2018-05-23T03:07:50.093Z info: server running
+2018-05-23T03:07:57.694Z info: server running
+2018-05-23T03:08:17.660Z info: Get quote executed!
+2018-05-23T03:08:25.470Z info: Get quote executed!
+2018-05-23T03:08:31.718Z info: Get quote executed!
+2018-05-23T03:08:35.898Z info: Get quote executed!
+2018-05-23T03:08:41.047Z info: Get quote executed!
+2018-05-23T03:08:57.550Z info: server running
+2018-05-23T03:09:05.910Z info: getQuote Validation failed!
+2018-05-23T03:09:05.910Z info: Get quote executed!
+2018-05-23T03:09:14.658Z info: Get quote executed!
+2018-05-23T03:09:23.665Z info: Get quote executed!
+2018-05-23T03:11:29.623Z info: server running
+2018-05-23T03:11:39.667Z info: server running
+2018-05-23T03:13:01.861Z error: schema is invalid: data.properties['package'].properties['grossWeight'].properties['amount'].exclusiveMinimum should be number
+2018-05-23T03:13:19.437Z info: server running
+2018-05-23T03:13:20.825Z info: getQuote Validation failed!
+2018-05-23T03:13:20.826Z info: Get quote executed!
+2018-05-23T03:13:41.126Z info: server running
+2018-05-23T03:14:01.518Z info: server running
+2018-05-23T03:32:05.228Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (106:12)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (106:12)
+[0m [90m 104 | [39m              type[33m:[39m [32m"string"[39m[33m,[39m
+ [90m 105 | [39m              pattern[33m:[39m 
+[31m[1m>[22m[39m[90m 106 | [39m            }
+ [90m     | [39m            [31m[1m^[22m[39m
+ [90m 107 | [39m          }[33m,[39m
+ [90m 108 | [39m          required[33m:[39m [[32m"amount"[39m[33m,[39m [32m"unit"[39m][33m,[39m
+ [90m 109 | [39m        }[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseObjectProperty (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4115:99)
+    at Parser.pp$3.parseObjPropValue (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+2018-05-23T03:32:08.220Z info: server running
+2018-05-23T03:32:12.167Z info: server running
+2018-05-23T03:32:14.954Z info: server running
+2018-05-23T03:32:30.219Z info: Data Validation failed!
+2018-05-23T03:32:30.220Z info: Get quote executed!
+2018-05-23T03:32:36.287Z info: Get quote executed!
+2018-05-23T03:32:40.850Z info: Data Validation failed!
+2018-05-23T03:32:40.851Z info: Get quote executed!
+2018-05-23T03:33:13.729Z info: server running
+2018-05-23T03:33:14.291Z info: Data Validation failed!
+2018-05-23T03:33:14.291Z info: Get quote executed!
+2018-05-23T03:33:22.848Z info: Data Validation failed!
+2018-05-23T03:33:22.849Z info: Get quote executed!
+2018-05-23T03:33:27.220Z info: Get quote executed!
+2018-05-23T03:35:32.856Z info: server running
+2018-05-23T03:35:36.471Z error: uncaughtException: error is not defined
+ReferenceError: error is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:106:15)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T03:35:40.560Z info: server running
+2018-05-23T03:36:11.882Z info: server running
+2018-05-23T03:36:13.653Z info: Get quote executed!
+2018-05-23T03:36:19.118Z info: Data Validation failed!
+2018-05-23T03:36:19.122Z info: Get quote executed!
+2018-05-23T03:41:13.831Z info: server running
+2018-05-23T03:41:17.599Z info: undefined
+2018-05-23T03:41:17.600Z info: Get quote executed!
+2018-05-23T03:41:47.205Z info: server running
+2018-05-23T03:41:47.255Z info: undefined
+2018-05-23T03:41:47.256Z info: Get quote executed!
+2018-05-23T03:42:01.968Z info: server running
+2018-05-23T03:42:03.894Z info: undefined
+2018-05-23T03:42:03.895Z info: Get quote executed!
+2018-05-23T03:42:50.024Z info: server running
+2018-05-23T03:42:55.348Z info: server running
+2018-05-23T03:42:56.016Z info: undefined
+2018-05-23T03:42:56.017Z info: Get quote executed!
+2018-05-23T03:43:02.422Z info: undefined
+2018-05-23T03:43:02.424Z info: Get quote executed!
+2018-05-23T03:43:11.729Z info: server running
+2018-05-23T03:43:13.161Z info: undefined
+2018-05-23T03:43:13.162Z info: Get quote executed!
+2018-05-23T03:43:37.389Z info: server running
+2018-05-23T03:44:03.415Z info: undefined
+2018-05-23T03:44:03.416Z info: Get quote executed!
+2018-05-23T03:44:22.482Z info: server running
+2018-05-23T03:44:40.232Z info: server running
+2018-05-23T03:44:59.714Z info: server running
+2018-05-23T03:45:26.707Z info: server running
+2018-05-23T03:45:32.759Z info: server running
+2018-05-23T03:46:05.627Z info: server running
+2018-05-23T03:46:12.679Z info: server running
+2018-05-23T03:46:48.238Z info: server running
+2018-05-23T03:46:52.282Z info: server running
+2018-05-23T03:46:56.129Z info: server running
+2018-05-23T03:47:10.374Z info: server running
+2018-05-23T03:47:13.331Z info: server running
+2018-05-23T03:47:37.445Z info: server running
+2018-05-23T03:47:46.095Z info: server running
+2018-05-23T03:47:51.958Z info: server running
+2018-05-23T03:48:03.586Z info: server running
+2018-05-23T03:48:07.578Z info: server running
+2018-05-23T03:48:19.643Z info: server running
+2018-05-23T03:48:23.719Z info: server running
+2018-05-23T03:48:27.016Z info: server running
+2018-05-23T03:48:30.913Z info: server running
+2018-05-23T03:48:43.731Z info: server running
+2018-05-23T03:48:51.742Z info: server running
+2018-05-23T03:49:18.509Z info: Validate request data failed!
+2018-05-23T03:49:25.348Z info: Validate request data failed!
+2018-05-23T03:52:42.071Z info: server running
+2018-05-23T03:52:51.368Z info: server running
+2018-05-23T03:52:55.630Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:0)
+[0m [90m 117 | [39m[36mexport[39m [36mconst[39m f
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Additional Schema to getQuoteSchema to validate creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$1.parseVar (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2342:12)
+    at Parser.pp$1.parseVarStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2169:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1861:19)
+    at Parser.pp$1.parseExportDeclaration (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2666:15)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2654:29)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+2018-05-23T03:53:03.645Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:0)
+[0m [90m 117 | [39m[36mexport[39m [36mconst[39m fCreatShipmentSchema [33m=[39m 
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Additional Schema to getQuoteSchema to validate creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$1.parseVar (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2169:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1861:19)
+    at Parser.pp$1.parseExportDeclaration (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2666:15)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2654:29)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+2018-05-23T03:53:09.067Z error: uncaughtException: g is not defined
+ReferenceError: g is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:117:37)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T03:53:13.968Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+[0m [90m 117 | [39m[36mexport[39m [36mconst[39m fCreatShipmentSchema [33m=[39m getQuoteSchema[33m.[39m
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Additional Schema to getQuoteSchema to validate creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseVarStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2170:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1861:19)
+    at Parser.pp$1.parseExportDeclaration (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2666:15)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2654:29)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+2018-05-23T03:53:17.727Z info: server running
+2018-05-23T03:53:50.414Z error: uncaughtException: JSO is not defined
+ReferenceError: JSO is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:117:48)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T03:53:55.579Z error: uncaughtException: Unexpected token u in JSON at position 0
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:117:42)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+2018-05-23T03:54:04.001Z info: server running
+2018-05-23T03:54:06.713Z info: server running
+2018-05-23T03:54:14.814Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Additional Schema to getQuoteSchema to validate creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:54:28.178Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39mtitle[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Additional Schema to getQuoteSchema to validate creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:54:31.549Z info: server running
+2018-05-23T03:54:35.503Z info: server running
+2018-05-23T03:54:45.771Z info: server running
+2018-05-23T03:54:56.534Z info: server running
+2018-05-23T03:55:05.462Z info: server running
+2018-05-23T03:55:08.690Z info: server running
+2018-05-23T03:55:17.012Z error: uncaughtException: f is not defined
+ReferenceError: f is not defined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:119:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T03:55:22.094Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:55:26.244Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mrequired [33m=[39m 
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T03:55:45.215Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:33)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (119:33)
+[0m [90m 117 | [39m[36mexport[39m [36mconst[39m fCreatShipmentSchema [33m=[39m [33mJSON[39m[33m.[39mparse([33mJSON[39m[33m.[39mstringify(getQuoteSchema))[33m;[39m
+ [90m 118 | [39mfCreatShipmentSchema[33m.[39mtitle [33m=[39m [32m"First validation creatShipment"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m [33m=[39m 
+ [90m     | [39m                                 [31m[1m^[22m[39m
+ [90m 120 | [39m
+ [90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseIdentifier (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4332:10)
+    at Parser.pp$3.parseSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3517:30)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T03:56:27.540Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin [33m=[39m 
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T03:56:44.408Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin [33m=[39m 
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T03:57:28.965Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (121:0)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39mproperties[33m.[39mrequired [33m=[39m 
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T03:57:38.152Z info: server running
+2018-05-23T03:57:42.277Z info: server running
+2018-05-23T03:57:57.689Z info: server running
+2018-05-23T03:58:08.191Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:58:15.976Z info: server running
+2018-05-23T03:58:18.781Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:58:43.690Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:59:16.625Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (121:7)
+[0m [90m 119 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 120 | [39m
+[31m[1m>[22m[39m[90m 121 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 122 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 123 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 124 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:59:46.850Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T03:59:51.586Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:00:04.595Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:00:40.081Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+[0m [90m 117 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:02:05.903Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+[0m [90m 117 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39m
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:02:35.662Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+[0m [90m 117 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39mproperties[33m.[39m
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:02:48.336Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (119:7)
+[0m [90m 117 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39morigin[33m.[39mproperties[33m.[39mcontact[33m.[39m
+ [90m 118 | [39m
+[31m[1m>[22m[39m[90m 119 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 120 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 121 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 122 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:03:04.930Z info: server running
+2018-05-23T04:03:28.450Z info: server running
+2018-05-23T04:03:33.700Z info: server running
+2018-05-23T04:03:37.374Z info: server running
+2018-05-23T04:03:41.974Z info: server running
+2018-05-23T04:03:46.114Z info: server running
+2018-05-23T04:03:55.676Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (120:7)
+[0m [90m 118 | [39mfCreatShipmentSchema[33m.[39m
+ [90m 119 | [39m
+[31m[1m>[22m[39m[90m 120 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 121 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 122 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 123 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:03:59.897Z info: server running
+2018-05-23T04:04:02.748Z info: server running
+2018-05-23T04:04:05.916Z info: server running
+2018-05-23T04:04:08.671Z info: server running
+2018-05-23T04:04:15.795Z info: server running
+2018-05-23T04:04:25.132Z info: server running
+2018-05-23T04:04:28.903Z info: server running
+2018-05-23T04:04:39.471Z info: server running
+2018-05-23T04:04:49.174Z info: server running
+2018-05-23T04:04:55.600Z info: server running
+2018-05-23T04:05:01.740Z info: server running
+2018-05-23T04:05:06.941Z info: server running
+2018-05-23T04:05:12.662Z info: server running
+2018-05-23T04:05:28.109Z info: server running
+2018-05-23T04:05:32.601Z info: server running
+2018-05-23T04:05:35.789Z info: server running
+2018-05-23T04:05:38.657Z info: server running
+2018-05-23T04:05:42.888Z info: server running
+2018-05-23T04:05:48.050Z info: server running
+2018-05-23T04:06:03.776Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:06:06.464Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:06:11.261Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mdestination[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:06:14.311Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mdestination[33m.[39mproperties[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:06:18.875Z info: server running
+2018-05-23T04:06:35.153Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (122:7)
+[0m [90m 120 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mdestination[33m.[39mproperties[33m.[39mcontact[33m.[39m
+ [90m 121 | [39m
+[31m[1m>[22m[39m[90m 122 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 123 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 124 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 125 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:06:45.467Z info: server running
+2018-05-23T04:06:50.924Z info: server running
+2018-05-23T04:06:58.960Z info: server running
+2018-05-23T04:07:03.600Z info: server running
+2018-05-23T04:07:08.264Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (123:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (123:7)
+[0m [90m 121 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 122 | [39m
+[31m[1m>[22m[39m[90m 123 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 124 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 125 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 126 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:07:23.876Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (124:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (124:0)
+[0m [90m 122 | [39m
+ [90m 123 | [39m
+[31m[1m>[22m[39m[90m 124 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 125 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 126 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 127 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T04:07:27.728Z info: server running
+2018-05-23T04:07:49.442Z info: server running
+2018-05-23T04:08:05.906Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+[0m [90m 123 | [39mfCreatShipmentSchema[33m.[39m
+ [90m 124 | [39m
+[31m[1m>[22m[39m[90m 125 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 126 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 127 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 128 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:08:08.882Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+[0m [90m 123 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39m
+ [90m 124 | [39m
+[31m[1m>[22m[39m[90m 125 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 126 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 127 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 128 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:08:13.198Z info: server running
+2018-05-23T04:08:49.376Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (125:7)
+[0m [90m 123 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mpackage[33m.[39m
+ [90m 124 | [39m
+[31m[1m>[22m[39m[90m 125 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 126 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 127 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 128 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:08:54.194Z info: server running
+2018-05-23T04:09:01.866Z info: server running
+2018-05-23T04:09:11.039Z info: server running
+2018-05-23T04:09:31.966Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (126:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (126:7)
+[0m [90m 124 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mpackage[33m.[39m
+ [90m 125 | [39m
+[31m[1m>[22m[39m[90m 126 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 127 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 128 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 129 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:10:05.641Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (126:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected ; (126:7)
+[0m [90m 124 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mpackage[33m.[39mproperties[33m.[39m
+ [90m 125 | [39m
+[31m[1m>[22m[39m[90m 126 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 127 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 128 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 129 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+    at compile (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:118:20)
+2018-05-23T04:10:15.226Z info: server running
+2018-05-23T04:10:22.558Z info: server running
+2018-05-23T04:10:25.150Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (126:0)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token (126:0)
+[0m [90m 124 | [39mfCreatShipmentSchema[33m.[39mproperties[33m.[39mpackage[33m.[39mproperties[33m.[39mdimensions[33m.[39mrequired [33m=[39m 
+ [90m 125 | [39m
+[31m[1m>[22m[39m[90m 126 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m     | [39m[31m[1m^[22m[39m
+ [90m 127 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m
+ [90m 128 | [39m  type[33m:[39m [32m"object"[39m[33m,[39m
+ [90m 129 | [39m  properties[33m:[39m {[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3367:23)
+    at Parser.pp$3.parseExpression (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+2018-05-23T04:10:29.207Z info: server running
+2018-05-23T04:10:35.484Z info: server running
+2018-05-23T04:10:42.480Z info: server running
+2018-05-23T04:10:48.302Z info: server running
+2018-05-23T04:10:53.428Z info: server running
+2018-05-23T04:10:57.579Z info: server running
+2018-05-23T04:11:08.222Z info: server running
+2018-05-23T04:11:16.875Z info: server running
+2018-05-23T04:11:24.908Z info: server running
+2018-05-23T04:11:31.803Z info: server running
+2018-05-23T04:12:15.814Z info: server running
+2018-05-23T04:12:21.582Z info: server running
+2018-05-23T04:12:34.412Z info: Validate request data failed!
+2018-05-23T04:12:48.274Z info: Validate request data failed!
+2018-05-23T04:15:13.623Z info: server running
+2018-05-23T04:15:25.197Z error: uncaughtException: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (131:7)
+SyntaxError: D:/NodeProjects/FinalProject/quyetdv4/config/schema.js: Unexpected token, expected { (131:7)
+[0m [90m 129 | [39m  [[32m"height"[39m[33m,[39m [32m"width"[39m[33m,[39m [32m"length"[39m[33m,[39m [32m"unit"[39m][33m;[39m
+ [90m 130 | [39m
+[31m[1m>[22m[39m[90m 131 | [39m[36mexport[39m fCreatShipmentSchema[33m;[39m
+ [90m     | [39m       [31m[1m^[22m[39m
+ [90m 132 | [39m
+ [90m 133 | [39m[36mexport[39m [36mconst[39m sCreatShipmentSchema [33m=[39m {
+ [90m 134 | [39m  title[33m:[39m [32m"Second validation for creatShipment request data"[39m[33m,[39m[0m
+    at Parser.pp$5.raise (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$1.parseExportSpecifiers (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2830:8)
+    at Parser.pp$1.parseExport (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2658:28)
+    at Parser.pp$1.parseStatement (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1884:74)
+    at Parser.pp$1.parseBlockBody (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1778:8)
+    at Parser.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:1673:17)
+    at parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babylon\lib\index.js:7305:37)
+    at File.parse (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:485:15)
+    at File.parseCode (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:570:20)
+    at D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:49:12
+    at File.wrap (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\file\index.js:532:16)
+    at Pipeline.transform (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\transformation\pipeline.js:47:17)
+    at Object.transformFileSync (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-core\lib\api\node.js:152:10)
+2018-05-23T04:16:00.937Z info: server running
+2018-05-23T04:17:01.932Z info: server running
+2018-05-23T04:17:08.311Z info: server running
+2018-05-23T04:17:10.213Z info: Validate request data failed!
+2018-05-23T04:19:37.084Z error: uncaughtException: Cannot read property 'properties' of undefined
+TypeError: Cannot read property 'properties' of undefined
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/config/schema.js:123:22)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/controller/implementClient.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+2018-05-23T04:19:46.733Z info: server running
+2018-05-23T04:19:56.552Z info: server running
+2018-05-23T04:20:00.808Z info: server running
+2018-05-23T04:20:20.041Z info: server running
+2018-05-23T04:21:21.753Z info: Validate request data failed!
+2018-05-23T04:22:30.370Z info: Validate request data failed!
+2018-05-23T04:23:16.026Z info: server running
+2018-05-23T04:23:20.090Z info: server running
+2018-05-23T04:23:36.645Z info: server running
+2018-05-23T04:23:41.271Z error: Cast to ObjectId failed for value "" at path "_id" for model "Quote"
+2018-05-23T04:24:28.091Z info: Validate request data failed!
+2018-05-23T04:29:10.391Z info: server running
+2018-05-23T04:29:30.604Z info: Data Validation failed!
+2018-05-23T04:29:30.605Z info: Get quote executed!
+2018-05-23T04:29:46.200Z info: rate not found in database function model(doc, fields, skipId) {
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    }
+2018-05-23T04:29:46.201Z info: Get quote executed!
+2018-05-23T04:30:05.918Z info: Get quote executed!
+2018-05-23T04:30:48.657Z info: server running
+2018-05-23T04:31:58.592Z info: server running
+2018-05-23T04:32:04.170Z info: server running
+2018-05-23T04:32:11.758Z info: server running
+2018-05-23T04:32:20.546Z info: server running
+2018-05-23T04:32:25.206Z info: server running
+2018-05-23T04:32:27.904Z info: server running
+2018-05-23T04:32:30.597Z info: server running
+2018-05-23T04:32:41.875Z info: server running
+2018-05-23T04:32:44.597Z info: server running
+2018-05-23T04:32:49.416Z info: server running
+2018-05-23T04:33:12.370Z info: server running
+2018-05-23T04:33:50.446Z info: server running
+2018-05-23T04:33:55.594Z info: server running
+2018-05-23T04:34:04.978Z info: server running
+2018-05-23T04:34:16.835Z info: server running
+2018-05-23T04:34:22.649Z info: server running
+2018-05-23T04:34:49.664Z info: server running
+2018-05-23T04:34:56.165Z info: server running
+2018-05-23T04:35:07.379Z info: server running
+2018-05-23T04:35:12.388Z info: server running
+2018-05-23T04:36:48.329Z info: server running
+2018-05-23T04:37:00.563Z info: server running
+2018-05-23T04:37:06.653Z info: server running
+2018-05-23T04:37:39.917Z info: server running
+2018-05-23T04:37:56.739Z info: server running
+2018-05-23T04:38:03.400Z info: server running
+2018-05-23T04:38:33.469Z info: server running
+2018-05-23T04:38:39.627Z info: server running
+2018-05-23T04:38:59.172Z info: server running
+2018-05-23T04:39:02.134Z info: server running
+2018-05-23T04:40:48.293Z info: server running
+2018-05-23T04:40:56.797Z info: server running
+2018-05-23T04:41:13.022Z info: server running
+2018-05-23T04:43:23.269Z info: server running
+2018-05-23T04:43:26.568Z info: server running
+2018-05-23T04:43:30.038Z info: server running
+2018-05-23T04:43:33.096Z info: server running
+2018-05-23T04:43:51.669Z info: server running
+2018-05-23T04:43:59.430Z info: server running
+2018-05-23T04:44:07.411Z info: server running
+2018-05-23T04:44:11.904Z info: server running
+2018-05-23T04:44:24.062Z info: server running
+2018-05-23T04:44:37.356Z error: uncaughtException: Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at Suite.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:21:16)
+    at Object.create (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\common.js:112:19)
+    at context.describe.context.context (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\bdd.js:44:27)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:19:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:253:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:250:14)
+    at Mocha.run (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:577:10)
+    at Object.<anonymous> (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:591:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+2018-05-23T06:15:41.261Z error: Cannot read property 'sort' of undefined
+2018-05-23T06:36:01.172Z info: rate not found in database function model(doc, fields, skipId) {
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    }
+2018-05-23T06:37:00.629Z info: rate not found in database function model(doc, fields, skipId) {
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    }
+2018-05-23T06:48:33.776Z info: rate not found in database
+2018-05-23T06:55:36.631Z info: rate not found in database
+2018-05-23T06:56:42.934Z info: rate not found in database
+2018-05-23T06:58:47.595Z info: rate not found in database
+2018-05-23T06:59:44.186Z info: rate not found in database
+2018-05-23T07:01:05.825Z info: rate not found in database
+2018-05-23T07:01:26.609Z info: rate not found in database
+2018-05-23T07:01:55.313Z info: rate not found in database
+2018-05-23T07:03:02.597Z info: rate not found in database
+2018-05-23T07:38:03.755Z info: rate not found in database
+2018-05-23T07:40:31.148Z info: rate not found in database
+2018-05-23T07:43:57.665Z info: rate not found in database
+2018-05-23T07:49:04.656Z info: rate not found in database
+2018-05-23T07:49:04.666Z info: Data Validation failed!
+2018-05-23T07:49:37.774Z info: rate not found in database
+2018-05-23T07:49:37.789Z info: Data Validation failed!
+2018-05-23T08:56:44.299Z info: rate not found in database
+2018-05-23T08:56:44.308Z info: Data Validation failed!
+2018-05-23T09:07:05.133Z info: server running
+2018-05-23T09:07:05.168Z info: rate not found in database
+2018-05-23T09:07:05.177Z info: Data Validation failed!
+2018-05-23T09:08:17.316Z info: server running
+2018-05-23T09:08:17.349Z info: rate not found in database
+2018-05-23T09:08:17.361Z info: Data Validation failed!
+2018-05-23T09:11:00.261Z info: server running
+2018-05-23T09:11:00.294Z info: rate not found in database
+2018-05-23T09:11:00.303Z info: Data Validation failed!
+2018-05-23T09:16:32.729Z info: server running
+2018-05-23T09:16:32.764Z info: rate not found in database
+2018-05-23T09:16:32.774Z info: Data Validation failed!
+2018-05-23T09:17:23.747Z info: server running
+2018-05-23T09:17:23.776Z info: rate not found in database
+2018-05-23T09:17:23.796Z info: Data Validation failed!
+2018-05-23T09:20:56.193Z info: server running
+2018-05-23T09:20:56.221Z info: rate not found in database
+2018-05-23T09:20:56.234Z info: Data Validation failed!
+2018-05-23T09:22:26.552Z info: server running
+2018-05-23T09:22:26.584Z info: rate not found in database
+2018-05-23T09:22:26.592Z info: Data Validation failed!
+2018-05-23T09:33:07.939Z info: server running
+2018-05-23T09:33:07.967Z info: rate not found in database
+2018-05-23T09:33:07.981Z info: Data Validation failed!
+2018-05-23T09:39:48.867Z info: server running
+2018-05-23T09:39:48.894Z info: rate not found in database
+2018-05-23T09:39:48.902Z info: Data Validation failed!
+2018-05-23T09:39:48.914Z info: Data Validation failed!
+2018-05-23T09:39:48.915Z info: Get quote executed!
+2018-05-23T09:54:04.103Z error: uncaughtException: Cannot find module 'tape'
+Error: Cannot find module 'tape'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:12:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:253:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:250:14)
+    at Mocha.run (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:577:10)
+    at Object.<anonymous> (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:591:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+2018-05-23T09:54:04.114Z info: server running
+2018-05-23T10:38:03.320Z info: server running
+2018-05-23T10:38:03.355Z info: rate not found in database
+2018-05-23T10:38:03.365Z info: Data Validation failed!
+2018-05-23T10:38:03.380Z info: Get quote executed!
+2018-05-23T10:38:03.424Z error: uncaughtException: Cannot read property 'error' of undefined
+TypeError: Cannot read property 'error' of undefined
+    at Test.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:106:11)
+    at Test.assert (D:\NodeProjects\FinalProject\quyetdv4\node_modules\supertest\lib\test.js:181:6)
+    at Server.assert (D:\NodeProjects\FinalProject\quyetdv4\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitCloseNT (net.js:1671:8)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-23T10:38:32.046Z info: server running
+2018-05-23T10:38:32.080Z info: rate not found in database
+2018-05-23T10:38:32.088Z info: Data Validation failed!
+2018-05-23T10:38:32.099Z info: Get quote executed!
+2018-05-23T10:38:32.135Z error: uncaughtException: t.error is not a function
+TypeError: t.error is not a function
+    at Test.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:106:11)
+    at Test.assert (D:\NodeProjects\FinalProject\quyetdv4\node_modules\supertest\lib\test.js:181:6)
+    at Server.assert (D:\NodeProjects\FinalProject\quyetdv4\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitCloseNT (net.js:1671:8)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-23T10:39:07.351Z info: server running
+2018-05-23T10:39:07.373Z info: Get quote executed!
+2018-05-23T10:39:07.405Z info: rate not found in database
+2018-05-23T10:39:07.425Z info: Data Validation failed!
+2018-05-23T10:43:32.396Z info: server running
+2018-05-23T10:43:32.428Z error: uncaughtException: application is not defined
+ReferenceError: application is not defined
+    at Test.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:101:31)
+    at Test.bound [as _cb] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\tape\lib\test.js:77:32)
+    at Test.run (D:\NodeProjects\FinalProject\quyetdv4\node_modules\tape\lib\test.js:96:10)
+    at Test.bound [as run] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\tape\lib\test.js:77:32)
+    at Immediate.next [as _onImmediate] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\tape\lib\results.js:71:15)
+    at runCallback (timers.js:794:20)
+    at tryOnImmediate (timers.js:752:5)
+    at processImmediate [as _immediateCallback] (timers.js:729:5)
+2018-05-23T10:43:32.462Z info: rate not found in database
+2018-05-23T10:43:32.475Z info: Data Validation failed!
+2018-05-23T10:44:14.564Z info: server running
+2018-05-23T10:44:14.584Z info: Get quote executed!
+2018-05-23T10:44:14.614Z info: rate not found in database
+2018-05-23T10:44:14.629Z info: Data Validation failed!
+2018-05-23T10:47:26.647Z info: server running
+2018-05-23T10:47:26.664Z info: Get quote executed!
+2018-05-23T10:47:26.692Z info: rate not found in database
+2018-05-23T10:47:26.715Z info: Data Validation failed!
+2018-05-23T10:48:22.057Z info: server running
+2018-05-23T10:48:22.074Z info: Get quote executed!
+2018-05-23T10:48:22.111Z info: rate not found in database
+2018-05-23T10:48:22.126Z info: Data Validation failed!
+2018-05-23T10:51:56.585Z info: server running
+2018-05-23T10:51:56.602Z info: Get quote executed!
+2018-05-23T10:51:56.635Z info: rate not found in database
+2018-05-23T10:51:56.650Z info: Data Validation failed!
+2018-05-23T10:54:01.130Z info: server running
+2018-05-23T10:54:01.146Z info: Get quote executed!
+2018-05-23T10:54:01.175Z info: rate not found in database
+2018-05-23T10:54:01.191Z info: Data Validation failed!

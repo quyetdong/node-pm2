@@ -4,6 +4,7 @@ import Rates from '../model/Rates';
 import Quotes from '../model/Quotes';
 import Shipments from '../model/Shipments';
 import implementClient from '../controller/implementClient';
+import logger from '../config/winston1';
 
 const Router = express.Router();
 
@@ -13,16 +14,19 @@ Router.post('/', async (req, res) => {
 
   try {
     const result = await rate.save();
+    logger.info('successful');
     return res.json(result);
   } catch (err) {
-    return res.json({ 'Got Error': err.message });
+    logger.error(err);
+    return res.json({ 'Got Error': 'Cannot save' });
   }
 }).get('/', async (req, res) => {
   try {
     const rates = await implementClient.getAllRate(Rates);
     return res.json({ data: rates });
-  } catch (e) {
-    return res.json({ Error: e.message });
+  } catch (err) {
+    logger.error(err);
+    return res.json({ 'Got Error': 'Cannot get data' });
   }
 });
 
@@ -33,9 +37,11 @@ Router.post('/getquote', async (req, res) => {
 
     const getquote = await implementClient.getQuote(data, Rates, Quotes);
 
+    logger.info('Get quote executed!');
     return res.json(getquote);
   } catch (e) {
-    return res.json({ 'Got error': e.message });
+    logger.error(e);
+    return res.json({ 'Got error': 'Cannot get quote' });
   }
 });
 
@@ -52,7 +58,8 @@ Router.post('/creatshipment', async (req, res) => {
 
     return res.json(shipmentCreated);
   } catch (e) {
-    return res.json({ 'Got error': e.message });
+    logger.error(e);
+    return res.json({ 'Got error': 'Cannot create shipment' });
   }
 });
 

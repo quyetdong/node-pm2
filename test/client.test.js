@@ -1,7 +1,6 @@
 // Require the dev-dependencies
-import { should as _should, use, request, expect } from "chai";
+import { should as _should, use, expect } from "chai";
 import chaiHttp from "chai-http";
-// import server from '../server';
 import implement from "../controller/implementClient";
 import Quotes from "../model/Quotes";
 import Rates from "../model/Rates";
@@ -11,32 +10,70 @@ import mongoose from "mongoose";
 
 const should = _should();
 use(chaiHttp);
-const base = "http://localhost:3000";
 
 /**
  * Test the POST /client/getquote route
  */
 describe("Test method getquote", () => {
-  it("should return response data", async () => {});
+  const getquote = implement.getQuote;
+  const originData = data[0].getquoteRequset.data;
+  const rateStub = sinon.stub(mongoose.Model, "findOne");
+  const quoteStub = sinon.stub(mongoose.Model.prototype, "save");
+  const mockFind = {
+    where: () => mockFind,
+    gte: () => mockFind,
+    sort: () => mockFind,
+    exec: () => mockFind
+  };
 
-  it("it test getquote POST", async () => {
-    const getquote = implement.getQuote;
+  before(() => {});
+  after(() => {
+    rateStub.restore();
+    quoteStub.restore();
+  });
 
-    const rateStub = sinon.stub(mongoose.Model, "findOne");
-    rateStub.returns({
-      sort: sinon.stub().returns({ price: { price: 80 } })
-    });
+  it("it test getquote POST: rate not found", async () => {
+    const data1 = JSON.parse(JSON.stringify(originData));
+    data1.origin.address.country_code = "";
+    mockFind.exec = () => null;
 
-    const quoteStub = sinon.stub(mongoose.Model.prototype, "save");
-    quoteStub.returns({ _id: "123", cost: 100 });
+    rateStub.returns(mockFind);
+    quoteStub.returns({});
 
-    const res = await getquote(data[0].getquoteRequset.data, Rates, Quotes);
-    // quoteStub.restore();
+    const res = await getquote(data1, Rates, Quotes);
+
+    expect(res).to.have.own.property("Message");
+    expect(res.Message).to.equal("Not found");
+  });
+
+  it("it test getquote POST: getquote succeeded", async () => {
+    const data2 = JSON.parse(JSON.stringify(originData));
+    data2.package.grossWeight.amount = 1;
+    mockFind.exec = () => ({ price: { price: 15.42 } });
+
+    rateStub.returns(mockFind);
+    quoteStub.returns({ _id: "123", cost: 15.42 });
+
+    const res = await getquote(data2, Rates, Quotes);
 
     expect(res).to.have.own.property("data");
     expect(res.data).to.be.an("array");
     expect(res.data).to.have.lengthOf(1);
     expect(res.data[0]).to.have.all.keys("id", "cost");
-    expect(res.data[0].cost).to.equal(100);
+    expect(res.data[0].cost).to.equal(15.42);
+  });
+
+  it("it test getquote POST: getquote validation failed", async () => {
+    const data2 = JSON.parse(JSON.stringify(originData));
+    data2.destination.address.country_code = undefined;
+    mockFind.exec = () => null;
+
+    rateStub.returns(mockFind);
+    quoteStub.returns(null);
+
+    const res = await getquote(data2, Rates, Quotes);
+
+    expect(res).to.have.own.property("Message");
+    expect(res.Message).to.equal("Request data is not correct!");
   });
 });

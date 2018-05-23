@@ -1,42 +1,41 @@
-//** Connect to mongolab */
-import mongoose from "mongoose";
+//* * Connect to mongolab */
+import mongoose from 'mongoose';
 
 const Rate = new mongoose.Schema({
-    grossWeight: {
-        amount: {
-            type: Number,
-            require: true
-        },
-        unit: {
-            type: String,
-            require: true,
-            default: 'g'
-        }
+  grossWeight: {
+    amount: {
+      type: Number,
+      require: true,
     },
+    unit: {
+      type: String,
+      require: true,
+      default: 'g',
+    },
+  },
+  price: {
     price: {
-        price: {
-            type: Number,
-            require: true
-        },
-        unit: {
-            type: String,
-            require: true,
-            default: 'USD'
-        }
+      type: Number,
+      require: true,
     },
-    origin: {
-        country_code: {
-            type: String,
-            require: true
-        }        
+    unit: {
+      type: String,
+      require: true,
+      default: 'USD',
     },
-    destination: {
-        country_code: {
-            type: String,
-            require: true
-        }
-    }
-})
+  },
+  origin: {
+    country_code: {
+      type: String,
+      require: true,
+    },
+  },
+  destination: {
+    country_code: {
+      type: String,
+      require: true,
+    },
+  },
+});
 
-let Rates = mongoose.model('Rate', Rate)
-export default Rates;
+export default mongoose.model('Rates', Rate);

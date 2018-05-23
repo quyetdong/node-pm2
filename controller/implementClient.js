@@ -1,3 +1,10 @@
+// Import basic parts
+import Ajv from 'ajv';
+import * as schema from '../config/schema';
+import logger from '../config/winston1';
+
+const ajv = new Ajv();
+
 //* Make object to save methods for processing with client */
 const implementClient = {
   /**
@@ -9,39 +16,27 @@ const implementClient = {
    * @returns quote data
    */
   async getQuote(data, Collect, Quotes) {
-    if (
-      !data.origin.address.country_code ||
-      !data.destination.address.country_code ||
-      !data.package.grossWeight.amount
-    ) {
-      return {
-        Message:
-          'Origin country, destination country, weight fields are required!',
-      };
-    }
+    const validateGet = ajv.compile(schema.getQuoteSchema);
+    const validGet = validateGet(data);
 
-    if (data.package.grossWeight.unit !== 'kg') {
-      return { Message: 'Weight unit must be kg (kilogram)' };
-    }
-
-    if (
-      !+data.package.grossWeight.amount ||
-      +data.package.grossWeight.amount <= 0
-    ) {
-      return { Message: 'Weight field Type Error' };
+    if (!validGet) {
+      logger.info('Data Validation failed!');
+      return { Message: 'Request data is not correct!' };
     }
 
     const weightAmount = data.package.grossWeight.amount * 1000;
-
     try {
       let rate = await Collect.findOne(
         {
           'origin.country_code': data.origin.address.country_code,
           'destination.country_code': data.destination.address.country_code,
-          'grossWeight.amount': { $gte: weightAmount },
         },
         'price.price',
-      ).sort({ 'grossWeight.amount': 1 });
+      )
+        .where('grossWeight.amount')
+        .gte(weightAmount)
+        .sort({ 'grossWeight.amount': 1 })
+        .exec();
 
       if (!rate) {
         rate = await Collect.findOne(
@@ -50,19 +45,26 @@ const implementClient = {
             'destination.country_code': data.destination.address.country_code,
           },
           'price.price',
-        ).sort({ 'grossWeight.amount': -1 });
+        )
+          .where('grossWeight.amount')
+          .gte(0)
+          .sort({ 'grossWeight.amount': -1 })
+          .exec();
+      }
+
+      if (!rate) {
+        logger.info('rate not found in database');
+        return { Message: 'Not found' };
       }
 
       const quote = new Quotes();
       quote.cost = rate.price.price;
-
-      console.log(quote);
-
       const result = await quote.save();
 
       return { data: [{ id: result._id, cost: result.cost }] };
     } catch (e) {
-      return { 'Got error': e.message };
+      logger.error(e);
+      return { 'Got error': 'Cannot get quote' };
     }
   },
 
@@ -76,6 +78,16 @@ const implementClient = {
    */
   async creatShipment(data, Quotes, Shipments) {
     try {
+      const validateGet = ajv.compile(schema.fCreatShipmentSchema);
+      const validGet = validateGet(data);
+      const validateMore = ajv.compile(schema.sCreatShipmentSchema);
+      const validMore = validateMore(data);
+
+      if (!validGet || !validMore) {
+        logger.info('Validate request data failed!');
+        return { Message: 'Request data is not correct!' };
+      }
+
       const quote = await Quotes.findOne({ _id: data.quote.id });
       const shipment = new Shipments(data);
       const id = quote._id;
@@ -90,7 +102,8 @@ const implementClient = {
 
       return { data: result };
     } catch (err) {
-      return { 'Got Error': err.message };
+      logger.error(err);
+      return { 'Got Error': 'Request data is not correct' };
     }
   },
 

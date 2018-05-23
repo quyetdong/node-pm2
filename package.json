@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "prettier": "prettier --write",
     "eslint": "eslint --fix",
     "precommit": "lint-staged",
     "test":
-      "mocha --require babel-core/register --require babel-polyfill --timeout 10000 ./test",
+      "mocha --require babel-core/register --require babel-polyfill --timeout 100000 --exit ./test",
     "start": "nodemon --exec babel-node --presets=env server.js"
   },
   "keywords": [],
@@ -24,10 +25,10 @@
     "husky": "0.14.3",
     "lint-staged": "7.1.0",
     "nock": "9.2.6",
-    "pretty-quick": "1.4.1",
-    "request": "^2.86.0"
+    "pretty-quick": "1.4.1"
   },
   "dependencies": {
+    "ajv": "^6.5.0",
     "axios": "0.18.0",
     "babel-polyfill": "6.26.0",
     "body-parser": "1.18.3",
@@ -38,7 +39,9 @@
     "npm": "6.0.1",
     "prettier": "1.12.1",
     "sinon": "^5.0.7",
-    "winston": "^2.4.2"
+    "supertest": "^3.1.0",
+    "tape": "^4.9.0",
+    "winston": "^3.0.0-rc5"
   },
   "babel": {
     "presets": ["env"]
