@@ -7,7 +7,7 @@
     "eslint": "eslint --fix",
     "precommit": "lint-staged",
     "test":
-      "mocha --require babel-core/register --require babel-polyfill --timeout 100000 --exit ./test",
+      "mocha --require babel-core/register --require babel-polyfill --timeout 10000 --exit ./test",
     "start": "nodemon --exec babel-node --presets=env server.js"
   },
   "keywords": [],
