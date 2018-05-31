@@ -1,14 +1,12 @@
 // export function add(a, b) {
 //     return a + b;
 // };
-
 const express = require('express');
-
-const app = express();
 const fs = require('fs');
 
+const app = express();
+
 const id = 2;
-console.log(process);
 
 app.delete('/deleteUser', (req, res) => {
   // First read existing users.

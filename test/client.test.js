@@ -4,7 +4,7 @@ import chaiHttp from "chai-http";
 import implement from "../controller/implementClient";
 import Quotes from "../model/Quotes";
 import Rates from "../model/Rates";
-import { data } from "./data/data";
+import data from "./data/data.json";
 import sinon from "sinon";
 import mongoose from "mongoose";
 
@@ -16,7 +16,7 @@ use(chaiHttp);
  */
 describe("Test method getquote", () => {
   const getquote = implement.getQuote;
-  const originData = data[0].getquoteRequset.data;
+  const originData = data.getquoteRequest.data;
   const rateStub = sinon.stub(mongoose.Model, "findOne");
   const quoteStub = sinon.stub(mongoose.Model.prototype, "save");
   const mockFind = {

@@ -1841,3 +1841,266 @@ ReferenceError: application is not defined
 2018-05-24T03:30:40.225Z info: rate not found in database
 2018-05-24T03:30:40.233Z info: Data Validation failed!
 2018-05-24T07:19:12.011Z info: server running
+2018-05-30T09:44:00.712Z info: server running
+2018-05-30T09:44:26.400Z info: server running
+2018-05-30T09:45:04.223Z info: server running
+2018-05-30T09:46:07.193Z info: server running
+2018-05-30T09:46:11.634Z info: server running
+2018-05-30T09:46:16.568Z info: server running
+2018-05-30T09:46:21.436Z info: server running
+2018-05-30T09:47:18.064Z info: server running
+2018-05-30T09:47:41.302Z info: server running
+2018-05-30T09:47:56.299Z info: server running
+2018-05-30T09:48:04.070Z info: server running
+2018-05-30T09:49:11.116Z info: server running
+2018-05-30T09:49:20.642Z info: server running
+2018-05-30T09:49:44.035Z info: server running
+2018-05-30T09:49:51.693Z info: server running
+2018-05-30T09:50:07.516Z info: server running
+2018-05-30T09:50:18.620Z info: server running
+2018-05-30T09:50:26.908Z info: server running
+2018-05-30T09:50:35.890Z info: server running
+2018-05-30T09:51:17.284Z info: server running
+2018-05-30T09:51:24.906Z info: server running
+2018-05-30T09:51:37.305Z info: server running
+2018-05-30T09:51:48.861Z info: server running
+2018-05-30T09:52:06.549Z info: server running
+2018-05-30T09:52:18.267Z info: server running
+2018-05-30T09:52:37.615Z info: server running
+2018-05-30T09:52:49.115Z info: server running
+2018-05-30T09:53:02.227Z info: server running
+2018-05-30T09:53:08.530Z info: server running
+2018-05-30T09:53:27.583Z info: server running
+2018-05-30T09:54:05.792Z info: server running
+2018-05-30T09:54:12.806Z info: server running
+2018-05-30T09:54:26.592Z info: server running
+2018-05-30T09:54:33.543Z info: server running
+2018-05-30T09:57:01.413Z info: server running
+2018-05-30T09:57:06.156Z info: server running
+2018-05-30T09:57:12.082Z info: server running
+2018-05-30T09:57:24.516Z info: server running
+2018-05-30T09:57:30.420Z info: server running
+2018-05-30T09:57:41.600Z info: server running
+2018-05-30T09:57:57.544Z error: uncaughtException: Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at Suite.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:19:22)
+    at Object.create (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\common.js:112:19)
+    at context.describe.context.context (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\bdd.js:44:27)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:17:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:253:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:250:14)
+    at Mocha.run (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:577:10)
+    at Object.<anonymous> (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:591:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+2018-05-30T09:59:26.314Z info: server running
+2018-05-30T09:59:29.076Z error: uncaughtException: Cannot read property 'getquoteRequset' of undefined
+TypeError: Cannot read property 'getquoteRequset' of undefined
+    at Suite.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:19:30)
+    at Object.create (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\common.js:112:19)
+    at context.describe.context.context (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\interfaces\bdd.js:44:27)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/client.test.js:17:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:253:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:250:14)
+    at Mocha.run (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:577:10)
+    at Object.<anonymous> (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:591:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+2018-05-30T10:01:02.001Z info: server running
+2018-05-30T10:01:28.006Z error: uncaughtException: listen EADDRINUSE :::3000
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Function.listen (D:\NodeProjects\FinalProject\quyetdv4\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/server.js:27:5)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:/NodeProjects/FinalProject/quyetdv4/test/clientAPI.test.js:4:1)
+    at Module._compile (module.js:652:30)
+    at loader (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (D:\NodeProjects\FinalProject\quyetdv4\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:253:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:250:14)
+    at Mocha.run (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:577:10)
+    at Object.<anonymous> (C:\Users\quyetdv4\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:591:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+2018-05-30T10:01:28.078Z info: rate not found in database
+2018-05-30T10:01:28.087Z info: Data Validation failed!
+2018-05-30T10:01:28.138Z info: Data Validation failed!
+2018-05-30T10:01:28.139Z info: Get quote executed!
+2018-05-30T10:03:55.557Z info: server running
+2018-05-30T10:04:02.818Z info: rate not found in database
+2018-05-30T10:04:02.839Z info: Data Validation failed!
+2018-05-30T10:04:02.902Z info: Data Validation failed!
+2018-05-30T10:04:02.903Z info: Get quote executed!
+2018-05-30T10:04:15.105Z info: server running
+2018-05-30T10:04:18.335Z info: rate not found in database
+2018-05-30T10:04:18.344Z info: Data Validation failed!
+2018-05-30T10:04:18.384Z info: Data Validation failed!
+2018-05-30T10:04:18.385Z info: Get quote executed!
+2018-05-30T10:06:02.488Z info: server running
+2018-05-30T10:06:07.235Z info: server running
+2018-05-30T10:07:42.144Z info: server running
+2018-05-30T10:07:52.920Z info: server running
+2018-05-30T10:08:00.718Z info: server running
+2018-05-30T10:08:05.402Z info: server running
+2018-05-30T10:08:11.086Z info: server running
+2018-05-30T10:08:19.693Z info: server running
+2018-05-30T10:08:23.795Z info: server running
+2018-05-30T10:08:35.417Z info: server running
+2018-05-30T10:09:14.058Z info: server running
+2018-05-30T10:09:26.846Z info: server running
+2018-05-30T10:09:38.119Z info: server running
+2018-05-30T10:09:50.703Z info: server running
+2018-05-30T10:09:52.925Z info: rate not found in database
+2018-05-30T10:09:52.969Z info: Data Validation failed!
+2018-05-30T10:09:53.012Z info: Data Validation failed!
+2018-05-30T10:09:53.014Z info: Get quote executed!
+2018-05-30T10:09:53.054Z error: uncaughtException: Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at Request._callback (D:/NodeProjects/FinalProject/quyetdv4/test/clientAPI.test.js:34:9)
+    at Request.self.callback (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-30T10:11:59.722Z info: server running
+2018-05-30T10:12:02.792Z info: rate not found in database
+2018-05-30T10:12:02.801Z info: Data Validation failed!
+2018-05-30T10:12:02.844Z info: Data Validation failed!
+2018-05-30T10:12:02.845Z info: Get quote executed!
+2018-05-30T10:12:02.888Z error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at Request._callback (D:/NodeProjects/FinalProject/quyetdv4/test/clientAPI.test.js:34:21)
+    at Request.self.callback (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (D:\NodeProjects\FinalProject\quyetdv4\node_modules\request\request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-30T10:12:41.928Z info: server running
+2018-05-30T10:14:21.254Z info: server running
+2018-05-30T10:15:08.655Z info: server running
+2018-05-30T10:15:16.866Z info: server running
+2018-05-30T10:15:47.867Z info: server running
+2018-05-30T10:15:57.226Z info: server running
+2018-05-30T10:17:11.985Z info: rate not found in database
+2018-05-30T10:17:12.006Z info: Data Validation failed!
+2018-05-30T10:17:14.166Z info: Get quote executed!
+2018-05-30T10:17:25.993Z info: server running
+2018-05-30T10:18:33.666Z info: server running
+2018-05-30T10:20:22.625Z info: server running
+2018-05-30T10:20:43.556Z info: server running
+2018-05-30T10:28:39.233Z info: server running
+2018-05-30T10:28:48.410Z info: server running
+2018-05-30T10:28:53.696Z info: rate not found in database
+2018-05-30T10:28:53.705Z info: Data Validation failed!
+2018-05-30T10:28:55.989Z info: Get quote executed!
+2018-05-30T10:37:43.012Z info: server running
+2018-05-30T10:38:48.560Z info: server running
+2018-05-30T10:38:53.989Z info: server running
+2018-05-30T10:38:58.267Z info: server running
+2018-05-30T10:39:05.751Z info: server running
+2018-05-30T10:39:10.283Z info: server running
+2018-05-30T10:39:18.890Z info: server running
+2018-05-30T10:39:53.540Z info: rate not found in database
+2018-05-30T10:39:53.554Z info: Data Validation failed!
+2018-05-30T10:39:54.654Z error: uncaughtException: expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist
+AssertionError: expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist
+    at Object.should.not.exist (D:\NodeProjects\FinalProject\quyetdv4\node_modules\chai\lib\chai\interface\should.js:193:38)
+    at D:/NodeProjects/FinalProject/quyetdv4/test/clientAPI.test.js:34:20
+    at Request.callback (D:\NodeProjects\FinalProject\quyetdv4\node_modules\superagent\lib\node\index.js:728:3)
+    at ClientRequest.req.once.err (D:\NodeProjects\FinalProject\quyetdv4\node_modules\superagent\lib\node\index.js:647:10)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-30T10:39:54.661Z error: uncaughtException: socket hang up
+Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at Socket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:567:12)
+2018-05-30T10:41:43.322Z info: server running
+2018-05-30T10:42:57.297Z info: server running
+2018-05-30T10:43:04.946Z info: server running
+2018-05-30T10:43:08.862Z info: server running
+2018-05-30T10:43:14.915Z info: rate not found in database
+2018-05-30T10:43:14.925Z info: Data Validation failed!
+2018-05-30T10:43:15.972Z info: Get quote executed!
+2018-05-30T10:46:56.526Z info: server running
+2018-05-30T10:49:02.728Z info: server running

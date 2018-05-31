@@ -1,40 +1,43 @@
-import request from "supertest";
-import test from "tape";
-import app from "../server";
-import implement from "../controller/implementClient";
 import sinon from "sinon";
+import chai from "chai";
+import request from "superagent";
+import implement from "../controller/implementClient";
+import object from "./data/data.json";
 
-describe("Test API /getquote POST", () => {
-  test("Test case successful", t => {
-    const result = sinon.stub(implement, "getQuote");
+const should = chai.should();
+const base = "http://localhost:3000";
 
-    result.returns({
-      data: [
-        {
-          id: "5b04ee4d700d9f0da84a8d5a",
-          cost: 12.43
-        }
-      ]
-    });
+describe("routes: client", () => {
+  describe("POST /getquote", () => {
+    it("should return the added item", done => {
+      const result = sinon.stub(implement, "getQuote");
 
-    request(app)
-      .post("/client/getquote")
-      .expect("Content-Type", /json/)
-      .expect(200)
-      .end(function(err, res) {
-        var expectedResult = {
-          data: [
-            {
-              id: "5b04ee4d700d9f0da84a8d5a",
-              cost: 12.43
-            }
-          ]
-        };
-
-        t.same(res.body, expectedResult, "Result as expected");
-        t.end();
-
-        result.restore();
+      result.returns({
+        data: [
+          {
+            id: "5b04ee4d700d9f0da84a8d5a",
+            cost: 12.43
+          }
+        ]
       });
+
+      const options = {
+        body: object.getquoteRequest,
+        json: true,
+        url: `${base}/client/getquote`
+      };
+
+      request
+        .post(options.url)
+        .send(options.body)
+        .end((err, res) => {
+          should.not.exist(err);
+          res.statusCode.should.eql(200);
+          res.header["content-type"].should.contain("application/json");
+          res.body.data[0].should.include.keys("id", "cost");
+
+          done();
+        });
+    });
   });
 });
