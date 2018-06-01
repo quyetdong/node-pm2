@@ -38,7 +38,7 @@ Router.post('/getquote', async (req, res) => {
     const getquote = await implementClient.getQuote(data, Rates, Quotes);
 
     logger.info('Get quote executed!');
-    return res.json(getquote);
+    return res.status(201).json(getquote);
   } catch (e) {
     logger.error(e);
     return res.json({ 'Got error': 'Cannot get quote' });

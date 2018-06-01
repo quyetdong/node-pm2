@@ -1,83 +1,49 @@
 export const getQuoteSchema = {
+  $schema: 'http://json-schema.org/draft-07/schema#',
   title: 'Validate request data in getQuote',
   type: 'object',
+  definitions: {
+    customer_information: {
+      type: 'object',
+      properties: {
+        contact: {
+          type: 'object',
+          properties: {
+            name: {
+              type: 'string',
+            },
+            email: {
+              type: 'string',
+            },
+            phone: {
+              type: 'string',
+            },
+          },
+        },
+        address: {
+          type: 'object',
+          properties: {
+            country_code: {
+              type: 'string',
+            },
+            locality: {
+              type: 'string',
+            },
+            postal_code: {
+              type: 'string',
+            },
+            address_line1: {
+              type: 'string',
+            },
+          },
+          required: ['country_code'],
+        },
+      },
+    },
+  },
   properties: {
-    origin: {
-      type: 'object',
-      properties: {
-        contact: {
-          type: 'object',
-          properties: {
-            name: {
-              type: 'string',
-            },
-            email: {
-              type: 'string',
-            },
-            phone: {
-              type: 'string',
-            },
-          },
-        },
-        address: {
-          type: 'object',
-          properties: {
-            country_code: {
-              type: 'string',
-            },
-            locality: {
-              type: 'string',
-            },
-            postal_code: {
-              type: 'string',
-            },
-            address_line1: {
-              type: 'string',
-            },
-          },
-          required: ['country_code'],
-        },
-      },
-      required: ['address'],
-    },
-    destination: {
-      type: 'object',
-      properties: {
-        contact: {
-          type: 'object',
-          properties: {
-            name: {
-              type: 'string',
-            },
-            email: {
-              type: 'string',
-            },
-            phone: {
-              type: 'string',
-            },
-          },
-        },
-        address: {
-          type: 'object',
-          properties: {
-            country_code: {
-              type: 'string',
-            },
-            locality: {
-              type: 'string',
-            },
-            postal_code: {
-              type: 'string',
-            },
-            address_line1: {
-              type: 'string',
-            },
-          },
-          required: ['country_code'],
-        },
-      },
-      required: ['address'],
-    },
+    origin: { $ref: '#/definitions/customer_information' },
+    destination: { $ref: '#/definitions/customer_information' },
     package: {
       type: 'object',
       properties: {
@@ -113,25 +79,16 @@ export const getQuoteSchema = {
 
 const fCreatShipmentSchema = JSON.parse(JSON.stringify(getQuoteSchema));
 fCreatShipmentSchema.title = 'First validation creatShipment';
-fCreatShipmentSchema.properties.origin.required = ['contact', 'address'];
-fCreatShipmentSchema.properties.origin.properties.contact.required = [
+fCreatShipmentSchema.definitions.customer_information.required = [
+  'contact',
+  'address',
+];
+fCreatShipmentSchema.definitions.customer_information.properties.contact.required = [
   'name',
   'email',
   'phone',
 ];
-fCreatShipmentSchema.properties.origin.properties.address.required = [
-  'country_code',
-  'locality',
-  'postal_code',
-  'address_line1',
-];
-fCreatShipmentSchema.properties.destination.required = ['contact', 'address'];
-fCreatShipmentSchema.properties.destination.properties.contact.required = [
-  'name',
-  'email',
-  'phone',
-];
-fCreatShipmentSchema.properties.destination.properties.address.required = [
+fCreatShipmentSchema.definitions.customer_information.properties.address.required = [
   'country_code',
   'locality',
   'postal_code',
