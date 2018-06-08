@@ -2131,3 +2131,137 @@ Error: socket hang up
 2018-06-01T03:14:32.179Z info: Get quote executed!
 2018-06-01T03:26:07.462Z info: server running
 2018-06-01T03:26:22.923Z info: server running
+2018-06-08T04:18:23.877Z info: rate not found in database
+2018-06-08T04:18:23.894Z info: Data Validation failed!
+2018-06-08T04:18:23.919Z error: uncaughtException: expected [Error: connect ECONNREFUSED 127.0.0.1:3000] to not exist
+AssertionError: expected [Error: connect ECONNREFUSED 127.0.0.1:3000] to not exist
+    at Object.should.not.exist (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/chai/lib/chai/interface/should.js:193:37)
+    at /media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:34:22
+    at Request.callback (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/superagent/lib/node/index.js:728:3)
+    at ClientRequest.req.once.err (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/superagent/lib/node/index.js:647:10)
+    at ClientRequest.g (events.js:292:16)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:314:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1290:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-06-08T04:18:23.922Z error: uncaughtException: socket hang up
+Error: socket hang up
+    at createHangUpError (_http_client.js:258:15)
+    at Socket.socketCloseListener (_http_client.js:290:23)
+    at emitOne (events.js:101:20)
+    at Socket.emit (events.js:188:7)
+    at TCP._handle.close [as _onclose] (net.js:509:12)
+2018-06-08T04:32:52.992Z info: rate not found in database
+2018-06-08T04:32:53.009Z info: Data Validation failed!
+2018-06-08T04:35:21.970Z info: server running
+2018-06-08T04:35:22.022Z info: rate not found in database
+2018-06-08T04:35:22.040Z info: Data Validation failed!
+2018-06-08T04:38:46.723Z error: uncaughtException: Cannot create property 'next' on number '3000'
+TypeError: Cannot create property 'next' on number '3000'
+    at Function.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/router/index.js:160:12)
+    at EventEmitter.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/application.js:174:10)
+    at app (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/express.js:39:9)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:16:11)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:13:3)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:12:1)
+    at Module._compile (module.js:577:32)
+    at loader (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.require (module.js:504:17)
+    at require (internal/module.js:20:19)
+    at /media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
+2018-06-08T04:38:46.733Z info: server running
+2018-06-08T04:39:33.212Z error: uncaughtException: Cannot create property 'next' on number '3000'
+TypeError: Cannot create property 'next' on number '3000'
+    at Function.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/router/index.js:160:12)
+    at EventEmitter.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/application.js:174:10)
+    at app (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/express.js:39:9)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:16:11)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:13:3)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:12:1)
+    at Module._compile (module.js:577:32)
+    at loader (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.require (module.js:504:17)
+    at require (internal/module.js:20:19)
+    at /media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
+2018-06-08T04:39:33.224Z info: server running
+2018-06-08T04:40:29.212Z error: uncaughtException: Cannot create property 'next' on number '3000'
+TypeError: Cannot create property 'next' on number '3000'
+    at Function.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/router/index.js:160:12)
+    at EventEmitter.handle (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/application.js:174:10)
+    at app (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/express/lib/express.js:39:9)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:16:11)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Suite.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:13:3)
+    at Object.create (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/common.js:112:19)
+    at context.describe.context.context (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/interfaces/bdd.js:40:27)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/test/clientAPI.test.js:12:1)
+    at Module._compile (module.js:577:32)
+    at loader (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.require (module.js:504:17)
+    at require (internal/module.js:20:19)
+    at /media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/media/quyetdv4local/DATA/4. Projects/1. StartingProjects/FinalProject/quyetdv4/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
+2018-06-08T04:40:29.222Z info: server running

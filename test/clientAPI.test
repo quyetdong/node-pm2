@@ -3,12 +3,18 @@ import chai from "chai";
 import request from "superagent";
 import implement from "../controller/implementClient";
 import object from "./data/data.json";
+import server from "../server.js";
 
 const should = chai.should();
-const base = "http://localhost:3000";
+const port = process.env.PORT || 3000;
+const base = `http://localhost:${port}`;
 
 describe("routes: client", () => {
   describe("POST /getquote", () => {
+    let app;
+
+    app = server(port);
+
     it("should return the added item", done => {
       const result = sinon.stub(implement, "getQuote");
 
@@ -36,8 +42,9 @@ describe("routes: client", () => {
           res.header["content-type"].should.contain("application/json");
           res.body.data[0].should.include.keys("id", "cost");
 
+          app.close();
           done();
-        });
-    });
+        });   
+      });    
   });
 });
