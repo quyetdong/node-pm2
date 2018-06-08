@@ -1,3 +1,3 @@
 {
-    "DBHost": "mongodb://userdbtest:studydb18@ds227110.mlab.com:27110/test_db"
+  "DBHost": "mongodb://userdbtest:studydb18@ds227110.mlab.com:27110/test_db"
 }
