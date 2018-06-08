@@ -1,0 +1,12 @@
+stages:
+  - build
+  - test
+  - deploy
+
+Job1:
+  stage: build
+  script: 
+
+job2:
+  stage: test
+  script:
