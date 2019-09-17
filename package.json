@@ -5,7 +5,7 @@
   "scripts": {
     "prettier": "prettier --write",
     "eslint": "eslint --fix",
-    "precommit": "lint-staged && npm test",
+    "precommit": "lint-staged",
     "test":
       "mocha --require babel-core/register --require babel-polyfill --timeout 10000 --exit ./test",
     "start": "nodemon --exec babel-node --presets=env server.js"
@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel": "6.23.0",
-    "babel-cli": "6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "chai": "4.1.2",
@@ -26,6 +26,7 @@
     "lint-staged": "7.1.0",
     "mocha": "^5.2.0",
     "nock": "9.2.6",
+    "nodemon": "^1.19.2",
     "pretty-quick": "1.4.1",
     "superagent": "^3.8.3"
   },

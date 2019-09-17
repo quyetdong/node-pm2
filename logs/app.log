@@ -2265,3 +2265,14 @@ TypeError: Cannot create property 'next' on number '3000'
     at startup (bootstrap_node.js:160:9)
     at bootstrap_node.js:507:3
 2018-06-08T04:40:29.222Z info: server running
+2018-06-08T04:41:13.946Z info: rate not found in database
+2018-06-08T04:41:13.963Z info: Data Validation failed!
+2018-06-08T06:09:50.126Z info: rate not found in database
+2018-06-08T06:09:50.144Z info: Data Validation failed!
+2018-06-08T09:02:04.760Z info: rate not found in database
+2018-06-08T09:02:04.777Z info: Data Validation failed!
+2019-09-17T06:23:13.637Z info: server running
+2019-09-17T06:24:23.136Z info: server running
+2019-09-17T09:10:36.867Z info: server running
+2019-09-17T09:17:06.323Z info: server running
+2019-09-17T09:23:45.484Z info: server running
